@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing page for BrandName, showcasing products and services." />
+  <meta name="keywords" content="landing page, brandname, business, services" />
+  <meta name="author" content="Your Name" />
+  <meta property="og:title" content="BrandName - Modern Landing Page" />
+  <meta property="og:description" content="Join BrandName and discover amazing products!" />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:url" content="https://www.brandname.com" />
+  <title>BrandName Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">BrandName</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Your Headline Here</h2>
+      <p>Short description about your service or product.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="feature-card">Feature 1</div>
+      <div class="feature-card">Feature 2</div>
+      <div class="feature-card">Feature 3</div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h3>Ready to take action?</h3>
+      <a href="#" class="btn">Join Now</a>
+    </div>
+  </section>
+  
+  <section class="contact-form">
+    <div class="container">
+      <h3>Contact Us</h3>
+      <form action="https://formspree.io/f/your-email" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container">
+      <h3>Subscribe to Our Newsletter</h3>
+      <form action="https://formspree.io/f/your-email" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  
+  <section class="social">
+    <div class="container">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <button id="scrollTopBtn" onclick="scrollToTop()">Top</button>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 BrandName. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    window.onscroll = function() {
+      const btn = document.getElementById("scrollTopBtn");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    };
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
