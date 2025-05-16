@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Jane Emmanuel 
 - 👀 I’m currently a data science intern, 
-- 🌱 I build pure html/css websites, also technical writing and automation.
+- 🌱 I build pure html/css websites, automation/technical writing.
 - 💞️ I’m looking to collaborate and work solely or with a team.
 - 📫 How to reach me is through my social media handles
 - 😄 Pronouns: we
